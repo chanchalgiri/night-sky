@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+
+}
+/* heading */
+.head{
+    padding: 50px;
+    /* background: linear-gradient(#CF6679,#000); */
+    background:linear-gradient(#000,#EF5350);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    color: white;
+}
+
+h1.head,h1:hover{
+   color: black;
+    /* color: #00E676; */
+}
+p.simple{
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: 1.5px;
+    padding: 10px 0;
+}
+
+/* navigation */
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: black;
+    height: 50px;
+    width: 100%;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 330px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    text-transform:capitalize;
+    font-size: 15px;
+    padding: 5px;
+    /* border-radius: 3px; */
+}
+
+a.navbar,a:hover{
+    /* background-color: rgb(122, 117, 117); */
+    color: rgba(35, 152, 219, 0.867);
+    transition: .5s;
+
+}
+
+/* black background */
+.body{
+    background-color: black;
+    color: white;/*for copyright text at the bottom*/
+}
+
+/* white box */
+.white{
+    background-color: white;
+    color: black;
+    margin: 0 300px 0 300px;
+    height: 600px;
+}
+.left{
+    float: left;
+    width: 65%;
+    height: 100%;
+    padding: 2.5rem;
+}
+.right{
+    background-color:rgba(192, 190, 190, 0.349);
+    float:right;
+    width: 25%;
+    height: 96%;
+    margin:12px 12px 12px 0;
+    padding: 20px;
+    border-left: 1px solid rgba(192, 190, 190, 0.349);
+    
+}
+
+/*  left-content */
+.welcome{
+    padding: 5px 0 20px 0;
+    color:black;
+}
+
+a.underline{
+    color: black;
+    text-decoration:underline dotted ;
+    
+}
+/* hover for id */
+/* #underline:hover{
+    color:#0091EA;
+    transition: .2s;
+} */
+
+.red{
+    color: rgb(170, 10, 10);
+    padding: 2px 0 20px 0;
+}
+
+.space{
+    padding: 0  0 20px 0;
+}
+/* change color of only bullets */
+ul{
+    list-style: none;
+}
+
+.list ul li::before{
+    content:"\2022";
+    color:rgba(10, 108, 153, 0.418);
+    padding-right: 10px;
+}
+
+/* right-content */
+.news{
+    padding: 10px 10px 10px 0;
+}
+.unordered{
+    margin-top: -20px;
+}
+
+.website{
+    color: rgb(170, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    text-transform: capitalize;
+}
+
+.date{
+   font-style:italic;
+   font-size: 13px;
+   color: gray;
+   padding: 2px 0 5px 0;
+}
+
+ul.newlink{
+   margin:25px;
+    /* image as bullet points */
+    list-style-image: url("./img/pin.png");
+
+}
+
+.newlink li a{
+    color: black;
+    font-size: 14px;
+    /* to make the bullet images and the links in a straight line */
+    position: relative;
+    bottom: 8px;
+
+}
+.searchbar{
+    font-size: 24px;
+}
+
+.searchimg{
+    position: relative;
+    top:10px;
+
+}
+
+/* bottom-content */
+.bottom p a{
+    color: #EEF3CD;
+    display:inline-block;
+    text-decoration:none;
+    border-bottom: dotted;
+    border-width: 0.7px;
+}
+.bottom{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 11px;
+    word-spacing: 5px;
+   
+}
+
+
+
