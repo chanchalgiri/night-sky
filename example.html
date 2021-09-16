@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>night_sky-examples</title>
-    <link  rel="stylesheet" href="./css/style2.css"> 
+    <link  rel="stylesheet" href="./css/example.css"> 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
         </style>
@@ -56,17 +56,18 @@
 
     <!-- list -->
     <p class="list ">List</p>
-    <p>This is unordered list:</p>
-    <ul>
+    <p class="unlist">This is unordered list:</p>
+    <div class="items">
+        <ul>
         <li>Item -1</li>
         <li>Item -2</li>
         <li>Item -3</li>
         <li>Item -4</li>
-
     </ul>
+    </div>
 
-    <p>This is ordered list:</p>
-    <ol>
+    <p class="order">This is ordered list:</p>
+    <ol class="orderlist">
         <li>Item -1</li>
         <li>Item -2</li>
         <li>Item -3</li>
@@ -75,18 +76,22 @@
     </ol>
 
     <!-- images -->
-    <p>image can be at the left,center,right</p>
-    <img src="./img/bird.jpg">
+    <h2 class="img">Images</h2>
+    <div class="position">
+    <p class="image">image can be at the left,center,right</p>
+    <img src="./img/bird.jpg" class="img1">
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas hic veritatis cum vero voluptate a 
         minima delectus quis rerum molestiae ab eos magnam, quisquam porro sapiente quia cupiditate vitae 
         exercitationem nulla fugiat nihil labore.</p>
-    <img src="./img/bird.jpg">
+    <img src="./img/bird.jpg" class="img2">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, delectus iste! Aut laborum placeat hic 
         in ratione eaque suscipit. Vero amet porro fugit distinctio illo cupiditate ipsum commodi tempora eum! 
         Dignissimos assumenda non neque eius magni consequuntur corrupti magnam eum?</p>
-    <img src="./img/bird.jpg">
+    <img src="./img/bird.jpg" class="img3">
 
+    </div>
     <!-- tables -->
+    <h2 class="t">Tables</h2>
     <table>
         <tr>
             <th>Item</th>
@@ -116,7 +121,7 @@
     </table>
 
     <!-- form -->
-    <p>Form Elements</p>
+    <p class="form">Form Elements</p>
     <form>
         <label for="field">Form Field Example</label>
         <input type="text" ><br>
@@ -124,7 +129,7 @@
         <label for="textarea">TextArea Example</label>
         <textarea name="textarea" rows="6"></textarea><br>
 
-        <input type="checkbox" name="check">
+        <input type="checkbox" name="check" class="checkbox">
         <label for="check" >Checkbox Example</label><br>
 
         
@@ -135,7 +140,7 @@
             <option value="example 3">Example 3</option>
         </select><br>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Button</button>
     </form>
     </div>
     <!-- side view -->
@@ -161,7 +166,7 @@
         <!-- search bar -->
         <form>
             <label for="search" class="searchbar">Search</label><br>
-            <input type="text" placeholder="Enter Keywords....">
+            <input type="text" placeholder="Enter Keywords...." class="size">
             <!-- ptr -->
             <input type="image"  src="img/search.png" class="searching" alt="submit">
         </form>

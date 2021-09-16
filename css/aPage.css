@@ -73,7 +73,7 @@ a.navbar,a:hover{
     background-color: white;
     color: black;
     margin: 0 300px 0 300px;
-    height: 600px;
+    height: 650px;
 }
 .left{
     float: left;
@@ -91,41 +91,10 @@ a.navbar,a:hover{
     border-left: 1px solid rgba(192, 190, 190, 0.349);
     
 }
-
-/*  left-content */
-.welcome{
-    padding: 5px 0 20px 0;
-    color:black;
-}
-
-a.underline{
-    color: black;
-    text-decoration:underline dotted ;
-    
-}
-/* hover for id */
-/* #underline:hover{
-    color:#0091EA;
-    transition: .2s;
-} */
-
-.red{
-    color: rgb(170, 10, 10);
-    padding: 2px 0 20px 0;
-}
-
-.space{
-    padding: 0  0 20px 0;
-}
-/* change color of only bullets */
-ul{
-    list-style: none;
-}
-
-.list ul li::before{
-    content:"\2022";
-    color:rgba(10, 108, 153, 0.418);
-    padding-right: 10px;
+/* left-content */
+.page{
+    font-size: 24px;
+    padding:0 0 20px 0
 }
 
 /* right-content */
