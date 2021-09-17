@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>night_sky-another page</title>
-    <link  rel="stylesheet" href="./style.css"> 
+    <link  rel="stylesheet" href="./css/contactus.css"> 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
         </style>
@@ -30,11 +30,12 @@
             <li><a href="./contactus.html">Contact Us</a></li>
         </ul>
     </nav>
-
+    <!-- left side -->
     <div class="body">
     <div class="white">
-    <p>Contact Us</p>
-    <p>Template of Contact form</p>
+    <div class="left">
+    <p class="contact">Contact Us</p>
+    <p class="temp">Template of Contact form</p>
     <form>
         <label for="text">Name</label>
         <input type="text"><br>
@@ -44,52 +45,55 @@
 
         <label for="textarea">Message</label>
         <textarea name="textarea" rows="5"></textarea><br>
-
         <button type="submit">Submit</button>
     </form>
-    
+    </div>
     <!-- side view -->
     <!-- latest news -->
-    <h2>Latest news</h2>
-    <p>New website launch</p>
-    <p>September 15,2021</p>
-    <p>Lorem ipsum dolor sit,
-        amet consectetur adipisicing elit. Saepe consequuntur ipsam exercitationem vel id aspernatur.</p>
-    <p>Read More</p>
-    
-    <h2>Useful Links</h2>
-        <ul>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 2</a></li>
-            <li><a href="#">link 3</a></li>
-            <li><a href="#">link 4</a></li>
-        </ul>
-
-        <!-- search bar -->
-        <form>
-            <label for="search"  class="searchbar">Search</label><br>
-            <input type="text" placeholder="Enter Keywords....">
-            <!-- ptr -->
-            <input type="image"  src="img/searchButton.jpg" alt="submit"  class="searching">
-        </form>
+    <div class="right">
+        <h2 class="news">Latest News</h2>
+        <p class="website">New website launch</p>
+        <p class="date">September 15,2021</p>
+        <p>Lorem ipsum dolor sit,
+            amet consectetur adipisicing elit. Saepe consequuntur aspernatur.</p>
+        <a href="#" class="underline">Read More</a>
+        
+        <h2 class="news">Useful Links</h2>
+        <div class="unordered">
+            <ul class="newlink">
+                <li><a href="#" >link 1</a></li>
+                <li><a href="#" >link 2</a></li>
+                <li><a href="#" >link 3</a></li>
+                <li><a href="#" >link 4</a></li>
+            </ul>
+            </div>
+            <!-- search bar -->
+            <form>
+                <label for="search" class="searchbar">Search</label><br>
+                <input type="text" placeholder="Enter Keywords...." class="size">
+                <!-- ptr -->
+                <input type="image"  src="img/search.png" class="searching" alt="submit">
+            </form>
+        </div>
         </div>
         <!-- footer -->
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">EXAMPLE</a></li>
-            <li><a href="#">A PAGE</a></li>
-            <li><a href="#">ANOTHER PAGE</a></li>
-            <li><a href="#">CONTACT US</a></li>
-        </ul>
-
-        <ul>
-            <li><p>Copyright &copy; NIGHT_SKY</p></li>
-            <li><a href="#">HTML5</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">DESIGN FROM HTML5WEBTEMP.CO.IN</a></li>
-
-        </ul>
-        </div>
+        <div class="bottom">
+            <p>
+                <a href="./index.html">HOME | </a>
+                <a href="./example.html">EXAMPLE | </a>
+                <a href="./apage.html">A PAGE | </a>
+                <a href="./anotherpage.html">ANOTHER | PAGE</a>
+                <a href="./contactus.html">CONTACT US  </a>
+            </p>
+            
+            <p>
+                Copyright &copy; NIGHT_SKY | 
+                <a href="#">HTML5 | </a></li>
+                <a href="#">CSS | </a></li>
+                <a href="#">DESIGN FROM HTML5WEBTEMP.CO.IN</a>
+                </p>
+            </div>
+    </div>
 </body>
 </html>
 
