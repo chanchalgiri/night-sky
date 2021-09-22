@@ -10,16 +10,16 @@
 /* heading */
 .head{
     padding: 50px;
-    /* background: linear-gradient(#CF6679,#000); */
     background:linear-gradient(#EF5350,black);
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     color: white;
 }
 
-h1.head,h1:hover{
-   color: black;
-    /* color: #00E676; */
+h1.night_sky,p.simple{
+    transition: all 1s;
+}
+h1:hover,p:hover{
+    transform: translateX(100px);
+    color: black;
 }
 p.simple{
     font-family: 'Architects Daughter', cursive;
@@ -103,11 +103,6 @@ a.underline{
     text-decoration:underline dotted ;
     
 }
-/* hover for id */
-/* #underline:hover{
-    color:#0091EA;
-    transition: .2s;
-} */
 
 .red{
     color: rgb(170, 10, 10);
