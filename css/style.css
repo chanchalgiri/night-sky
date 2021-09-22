@@ -103,11 +103,6 @@ a.underline{
     text-decoration:underline dotted ;
     
 }
-/* hover for id */
-/* #underline:hover{
-    color:#0091EA;
-    transition: .2s;
-} */
 
 .red{
     color: rgb(170, 10, 10);
