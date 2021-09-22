@@ -17,9 +17,12 @@
     color: white;
 }
 
-h1.head,h1:hover{
-   color: black;
-    /* color: #00E676; */
+h1.night_sky,p.simple{
+    transition: all 1s;
+}
+h1:hover,p:hover{
+    transform: translateX(100px);
+    color: black;
 }
 p.simple{
     font-family: 'Architects Daughter', cursive;
